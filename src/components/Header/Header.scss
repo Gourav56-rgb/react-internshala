@@ -1,0 +1,20 @@
+@import "../../App.scss";
+
+.header{
+    background: rgba(48, 75, 249, 0.671);
+    background: linear-gradient(180deg, rgba(48, 65, 249, 0.599) 0%, rgba(61, 51, 255, 0.703) 100%);
+
+    .header-cnt-top{
+        border-bottom: 1px solid lighten($clr-black, 10%);
+    }
+
+    @media screen and (max-width: 992px){
+        .header-cnt-top{
+            flex-direction: column;
+            .header-cnt-top-l{
+                margin-bottom: 4px;
+            }
+        }
+    }
+    
+}
